@@ -10,3 +10,6 @@
 4.redisobj.py --> redis redis消息队列
 
 5.SendEmail.py --> smtplib 发送邮件
+
+
+git 提交代码总是二次验证用户
