@@ -33,9 +33,9 @@ class Bt7086(object):
     def index(self):
         rootDir = 'bt7086'  # 下载根目录
         secondDir = rootDir + '/' + self.name  # 图片目录
-        # url = 'http://s1.pbnmdssb.club/pw/thread.php?fid=15'
+        url = 'http://s1.pbnmdssb.club/pw/thread.php?fid=15'
         # url = 'http://s1.pbnmdssb.club/pw/thread.php?fid=16'
-        url = 'http://s1.pbnmdssb.club/pw/thread.php?fid=49'
+        # url = 'http://s1.pbnmdssb.club/pw/thread.php?fid=49'
         urlFix = 'http://s1.pbnmdssb.club/pw/'
         if int(self.startPage) < 1 or int(self.endPage) < 1:
             self.startPage = 1
